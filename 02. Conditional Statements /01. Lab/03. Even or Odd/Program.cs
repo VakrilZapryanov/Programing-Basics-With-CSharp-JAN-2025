@@ -1,3 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int num = int.Parse(Console.ReadLine());
 
+//num % 2 == 0
+bool isEven = num % 2 == 0;
+
+if (isEven)
+    Console.WriteLine("even");
+else
+    Console.WriteLine("odd");

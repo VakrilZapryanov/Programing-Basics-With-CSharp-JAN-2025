@@ -1,3 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-
+﻿double radians = double.Parse(Console.ReadLine());
+double degrees = radians * 180 / Math.PI;
+Console.Write(degrees);

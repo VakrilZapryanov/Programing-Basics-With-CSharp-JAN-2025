@@ -1,3 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿string password = Console.ReadLine();
 
+if (password == "s3cr3t!P@ssw0rd")
+    Console.WriteLine("Welcome");
+
+else
+    Console.WriteLine("Wrong password!");
